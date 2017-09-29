@@ -1,0 +1,16 @@
+PODS:
+  - BBSearchBar (0.0.1)
+
+DEPENDENCIES:
+  - BBSearchBar (from `./`)
+
+EXTERNAL SOURCES:
+  BBSearchBar:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  BBSearchBar: '0909d42f83504e7de26e6551ba9a9d11ff97c5e0'
+
+PODFILE CHECKSUM: 4ff5adfb8b6de77db7ba1fed780f1e919c7b3ff8
+
+COCOAPODS: 1.2.0

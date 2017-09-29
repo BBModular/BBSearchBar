@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280163F9628C2BC158BEAA4C416132D0 /* Pods-BBSearchBarDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E951A60E59FBCD93E74C1AEBEBA15181 /* Pods-BBSearchBarDemo-dummy.m */; };
+		2ED518E94FBA4B506F3494EEA00E2F3E /* Pods-BBSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F932F9441B1319F43BABD5A43FD868 /* Pods-BBSearchBar-dummy.m */; };
+		589C43B1CD4AEA7F20BBA8FD1726AE56 /* BBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D05750330C9076B2908938F46F05C7 /* BBSearchBar.m */; };
+		74C7E99A40B8CFFC8F4466FFD7D93D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		86796201524C480FC0C07E5409C3ABD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A257951F972D01139058F3688BD6249F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A655A0F51189778341A703F2CD8711B5 /* BBSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BD47641DAB80605E42461B188F8A3D /* BBSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF93F7B624B687FE6D3A989F8E7E25DB /* Pods-BBSearchBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A32669DB204AC3E0A1533BA1C65FCE9 /* Pods-BBSearchBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E50F660055C1D9D8481BDB1E24835DFF /* Pods-BBSearchBarDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0D4EF2D4D7A6BA3DCA4646D08B3C60 /* Pods-BBSearchBarDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E97E394EF35DBF35BDFB996D753E7A4D /* BBSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3103D4AA737C8978E5FBF23B7CF914 /* BBSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A325FA2D81EDE103D35711B93203D2 /* BBSearchBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E49AA66861BB50587BF9CC30DA82F60 /* BBSearchBar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181E221E7A75DA81EFAFBCD3B4F4AE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF27F00F99E24A718AF4F9619E35458B;
+			remoteInfo = BBSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BB18DFCECD90ACCF2E27BB9260868DC /* Pods-BBSearchBarDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBSearchBarDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		29F61F35663C2CB13F00B7F052279E11 /* Pods-BBSearchBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBSearchBar.release.xcconfig"; sourceTree = "<group>"; };
+		2D0B058A4FA111FDB7FA3D7C486098BC /* BBSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BBSearchBar.modulemap; sourceTree = "<group>"; };
+		2F0D4EF2D4D7A6BA3DCA4646D08B3C60 /* Pods-BBSearchBarDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBSearchBarDemo-umbrella.h"; sourceTree = "<group>"; };
+		38F932F9441B1319F43BABD5A43FD868 /* Pods-BBSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBSearchBar-dummy.m"; sourceTree = "<group>"; };
+		4234D61E6F6E964DC6EB51EC1736B87E /* Pods-BBSearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBSearchBar.debug.xcconfig"; sourceTree = "<group>"; };
+		4C3103D4AA737C8978E5FBF23B7CF914 /* BBSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BBSearchBar.h; sourceTree = "<group>"; };
+		5E1CA41BCB2AFFC0CEEBA83773A857F5 /* Pods_BBSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBSearchBar.framework; path = "Pods-BBSearchBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B99D1E7C51084E119FC9E268F3D790 /* Pods-BBSearchBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBSearchBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6B54AF63C3F9D086CF8126E944FBC83A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BFADD7305ECAAE6E0E6C5BD49FA8C39 /* Pods-BBSearchBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBSearchBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C84AC8F06289BB3D96E9EA07B52E682 /* Pods-BBSearchBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BBSearchBar.modulemap"; sourceTree = "<group>"; };
+		86B8310381244D2F3EA3FACF2A9A2727 /* Pods-BBSearchBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBSearchBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E49AA66861BB50587BF9CC30DA82F60 /* BBSearchBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BBSearchBar-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A32669DB204AC3E0A1533BA1C65FCE9 /* Pods-BBSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBSearchBar-umbrella.h"; sourceTree = "<group>"; };
+		A6E20F6FF8CF81C07C80273867513E71 /* Pods_BBSearchBarDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBSearchBarDemo.framework; path = "Pods-BBSearchBarDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE6CE5C60ED670414ABE36DBDF75E98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44EF7AF767933FE40E2184386E182C3 /* Pods-BBSearchBarDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BBSearchBarDemo.modulemap"; sourceTree = "<group>"; };
+		B4BD47641DAB80605E42461B188F8A3D /* BBSearchBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBSearchBar-umbrella.h"; sourceTree = "<group>"; };
+		B6C112498E726CC61FA7F0064EFD8579 /* BBSearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BBSearchBar.framework; path = BBSearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A4838CF084A26CA0524D906BBAFC59 /* Pods-BBSearchBarDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBSearchBarDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3D902C48F6DDF58D2D5CEA1AA888854 /* Pods-BBSearchBarDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBSearchBarDemo-resources.sh"; sourceTree = "<group>"; };
+		C95ABFC7D7F5476A1501716C71B541B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D13DFEE9606BB03C7253CC12C98C5496 /* BBSearchBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBSearchBar-prefix.pch"; sourceTree = "<group>"; };
+		DD0A810085DBD6382AAB910B9CFF6710 /* Pods-BBSearchBarDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBSearchBarDemo-frameworks.sh"; sourceTree = "<group>"; };
+		E89E4D7B1DB39FD19AD0453EE84AE6C5 /* BBSearchBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBSearchBar.xcconfig; sourceTree = "<group>"; };
+		E951A60E59FBCD93E74C1AEBEBA15181 /* Pods-BBSearchBarDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBSearchBarDemo-dummy.m"; sourceTree = "<group>"; };
+		F0D05750330C9076B2908938F46F05C7 /* BBSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BBSearchBar.m; sourceTree = "<group>"; };
+		F8E145FB4811AB7960120BD7952DA538 /* Pods-BBSearchBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBSearchBar-resources.sh"; sourceTree = "<group>"; };
+		FE6411603FF36A8B0937D5D1CBA58E2F /* Pods-BBSearchBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBSearchBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F2F6928122550406BE1DC06BAE31F2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A257951F972D01139058F3688BD6249F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75DDE66DC966CC8612DE328DF53A871A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86796201524C480FC0C07E5409C3ABD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C151A5F4B2202EB3989AD0C04883C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C7E99A40B8CFFC8F4466FFD7D93D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246661D324A1B5F75DD4DF2B19AAB73B /* Pods-BBSearchBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AFE6CE5C60ED670414ABE36DBDF75E98 /* Info.plist */,
+				B44EF7AF767933FE40E2184386E182C3 /* Pods-BBSearchBarDemo.modulemap */,
+				C1A4838CF084A26CA0524D906BBAFC59 /* Pods-BBSearchBarDemo-acknowledgements.markdown */,
+				1BB18DFCECD90ACCF2E27BB9260868DC /* Pods-BBSearchBarDemo-acknowledgements.plist */,
+				E951A60E59FBCD93E74C1AEBEBA15181 /* Pods-BBSearchBarDemo-dummy.m */,
+				DD0A810085DBD6382AAB910B9CFF6710 /* Pods-BBSearchBarDemo-frameworks.sh */,
+				C3D902C48F6DDF58D2D5CEA1AA888854 /* Pods-BBSearchBarDemo-resources.sh */,
+				2F0D4EF2D4D7A6BA3DCA4646D08B3C60 /* Pods-BBSearchBarDemo-umbrella.h */,
+				FE6411603FF36A8B0937D5D1CBA58E2F /* Pods-BBSearchBarDemo.debug.xcconfig */,
+				66B99D1E7C51084E119FC9E268F3D790 /* Pods-BBSearchBarDemo.release.xcconfig */,
+			);
+			name = "Pods-BBSearchBarDemo";
+			path = "Target Support Files/Pods-BBSearchBarDemo";
+			sourceTree = "<group>";
+		};
+		2AB910A19964FB991847F2ADF9A211E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C112498E726CC61FA7F0064EFD8579 /* BBSearchBar.framework */,
+				5E1CA41BCB2AFFC0CEEBA83773A857F5 /* Pods_BBSearchBar.framework */,
+				A6E20F6FF8CF81C07C80273867513E71 /* Pods_BBSearchBarDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58E38464BC25FAAB94D1E242D6644A7B /* BBSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				4C3103D4AA737C8978E5FBF23B7CF914 /* BBSearchBar.h */,
+				F0D05750330C9076B2908938F46F05C7 /* BBSearchBar.m */,
+			);
+			name = BBSearchBar;
+			path = BBSearchBar;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FBA1EEBCD1204550E69E873DE0442AD7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2AB910A19964FB991847F2ADF9A211E9 /* Products */,
+				FF665EA0B4A7353B4CDB0CC13E0142DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8856C3C8C56DA1344C6A7EAA45793516 /* BBSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				58E38464BC25FAAB94D1E242D6644A7B /* BBSearchBar */,
+				EEFEB33E0BD1B494741DC629D1AEA2A6 /* Support Files */,
+			);
+			name = BBSearchBar;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9C11FB335EDBD41D85AC2BD534BA5D34 /* Pods-BBSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				C95ABFC7D7F5476A1501716C71B541B3 /* Info.plist */,
+				6C84AC8F06289BB3D96E9EA07B52E682 /* Pods-BBSearchBar.modulemap */,
+				6BFADD7305ECAAE6E0E6C5BD49FA8C39 /* Pods-BBSearchBar-acknowledgements.markdown */,
+				86B8310381244D2F3EA3FACF2A9A2727 /* Pods-BBSearchBar-acknowledgements.plist */,
+				38F932F9441B1319F43BABD5A43FD868 /* Pods-BBSearchBar-dummy.m */,
+				F8E145FB4811AB7960120BD7952DA538 /* Pods-BBSearchBar-resources.sh */,
+				9A32669DB204AC3E0A1533BA1C65FCE9 /* Pods-BBSearchBar-umbrella.h */,
+				4234D61E6F6E964DC6EB51EC1736B87E /* Pods-BBSearchBar.debug.xcconfig */,
+				29F61F35663C2CB13F00B7F052279E11 /* Pods-BBSearchBar.release.xcconfig */,
+			);
+			name = "Pods-BBSearchBar";
+			path = "Target Support Files/Pods-BBSearchBar";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEFEB33E0BD1B494741DC629D1AEA2A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D0B058A4FA111FDB7FA3D7C486098BC /* BBSearchBar.modulemap */,
+				E89E4D7B1DB39FD19AD0453EE84AE6C5 /* BBSearchBar.xcconfig */,
+				8E49AA66861BB50587BF9CC30DA82F60 /* BBSearchBar-dummy.m */,
+				D13DFEE9606BB03C7253CC12C98C5496 /* BBSearchBar-prefix.pch */,
+				B4BD47641DAB80605E42461B188F8A3D /* BBSearchBar-umbrella.h */,
+				6B54AF63C3F9D086CF8126E944FBC83A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/BBSearchBar";
+			sourceTree = "<group>";
+		};
+		FBA1EEBCD1204550E69E873DE0442AD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8856C3C8C56DA1344C6A7EAA45793516 /* BBSearchBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF665EA0B4A7353B4CDB0CC13E0142DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C11FB335EDBD41D85AC2BD534BA5D34 /* Pods-BBSearchBar */,
+				246661D324A1B5F75DD4DF2B19AAB73B /* Pods-BBSearchBarDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0154EAC4A0391B9D58241487119D7C1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A655A0F51189778341A703F2CD8711B5 /* BBSearchBar-umbrella.h in Headers */,
+				E97E394EF35DBF35BDFB996D753E7A4D /* BBSearchBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21F386F9B438DFA63D4CBAE55B268AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50F660055C1D9D8481BDB1E24835DFF /* Pods-BBSearchBarDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE6D7BEE9FAFC1C99D3EDEAF3F25FB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF93F7B624B687FE6D3A989F8E7E25DB /* Pods-BBSearchBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D8DDAE9C851DB337A93D83BB66A21F1 /* Pods-BBSearchBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17279A86E5AF7C89EA508AB2F8F2425F /* Build configuration list for PBXNativeTarget "Pods-BBSearchBarDemo" */;
+			buildPhases = (
+				11892A36CC11187A11C51C2AE10C14DC /* Sources */,
+				3F2F6928122550406BE1DC06BAE31F2D /* Frameworks */,
+				A21F386F9B438DFA63D4CBAE55B268AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F5D78F77F699DA33EB4AB9D7AB76F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BBSearchBarDemo";
+			productName = "Pods-BBSearchBarDemo";
+			productReference = A6E20F6FF8CF81C07C80273867513E71 /* Pods_BBSearchBarDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D83ECB8C01C6D13F603788095111AD9A /* Pods-BBSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3F0D84021B3BFD7DB8A2DDC6377EA6 /* Build configuration list for PBXNativeTarget "Pods-BBSearchBar" */;
+			buildPhases = (
+				15538B8B71684D60A3CBBA00BA735E76 /* Sources */,
+				9C151A5F4B2202EB3989AD0C04883C9C /* Frameworks */,
+				FAE6D7BEE9FAFC1C99D3EDEAF3F25FB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BBSearchBar";
+			productName = "Pods-BBSearchBar";
+			productReference = 5E1CA41BCB2AFFC0CEEBA83773A857F5 /* Pods_BBSearchBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF27F00F99E24A718AF4F9619E35458B /* BBSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA5D27F6D4FC7E2D80132F7242F8611 /* Build configuration list for PBXNativeTarget "BBSearchBar" */;
+			buildPhases = (
+				52AF27E0786B3BD956164451099C8EC4 /* Sources */,
+				75DDE66DC966CC8612DE328DF53A871A /* Frameworks */,
+				0154EAC4A0391B9D58241487119D7C1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBSearchBar;
+			productName = BBSearchBar;
+			productReference = B6C112498E726CC61FA7F0064EFD8579 /* BBSearchBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2AB910A19964FB991847F2ADF9A211E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF27F00F99E24A718AF4F9619E35458B /* BBSearchBar */,
+				D83ECB8C01C6D13F603788095111AD9A /* Pods-BBSearchBar */,
+				5D8DDAE9C851DB337A93D83BB66A21F1 /* Pods-BBSearchBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11892A36CC11187A11C51C2AE10C14DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280163F9628C2BC158BEAA4C416132D0 /* Pods-BBSearchBarDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15538B8B71684D60A3CBBA00BA735E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED518E94FBA4B506F3494EEA00E2F3E /* Pods-BBSearchBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AF27E0786B3BD956164451099C8EC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A325FA2D81EDE103D35711B93203D2 /* BBSearchBar-dummy.m in Sources */,
+				589C43B1CD4AEA7F20BBA8FD1726AE56 /* BBSearchBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6F5D78F77F699DA33EB4AB9D7AB76F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BBSearchBar;
+			target = EF27F00F99E24A718AF4F9619E35458B /* BBSearchBar */;
+			targetProxy = 181E221E7A75DA81EFAFBCD3B4F4AE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		04774EF9B04DFC1CABC2C273DA6E0B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F61F35663C2CB13F00B7F052279E11 /* Pods-BBSearchBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BBSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBSearchBar/Pods-BBSearchBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BBSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C230F9FD0627856CA1BB7BC907BB55C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE6411603FF36A8B0937D5D1CBA58E2F /* Pods-BBSearchBarDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BBSearchBarDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBSearchBarDemo/Pods-BBSearchBarDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BBSearchBarDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4DCF0A56DC02BE20B6E6FDDB92C87F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89E4D7B1DB39FD19AD0453EE84AE6C5 /* BBSearchBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BBSearchBar/BBSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBSearchBar/BBSearchBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BBSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5F05174D5550011220D4D68945AC02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4234D61E6F6E964DC6EB51EC1736B87E /* Pods-BBSearchBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BBSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBSearchBar/Pods-BBSearchBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BBSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9C73D06931280B3A5EC280B048F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89E4D7B1DB39FD19AD0453EE84AE6C5 /* BBSearchBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BBSearchBar/BBSearchBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBSearchBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBSearchBar/BBSearchBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BBSearchBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDBA3727C5BC7659AC8FAC94ACA462D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B99D1E7C51084E119FC9E268F3D790 /* Pods-BBSearchBarDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BBSearchBarDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBSearchBarDemo/Pods-BBSearchBarDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BBSearchBarDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17279A86E5AF7C89EA508AB2F8F2425F /* Build configuration list for PBXNativeTarget "Pods-BBSearchBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C230F9FD0627856CA1BB7BC907BB55C /* Debug */,
+				EDBA3727C5BC7659AC8FAC94ACA462D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA5D27F6D4FC7E2D80132F7242F8611 /* Build configuration list for PBXNativeTarget "BBSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9C73D06931280B3A5EC280B048F2E /* Debug */,
+				A4DCF0A56DC02BE20B6E6FDDB92C87F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C3F0D84021B3BFD7DB8A2DDC6377EA6 /* Build configuration list for PBXNativeTarget "Pods-BBSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F05174D5550011220D4D68945AC02B /* Debug */,
+				04774EF9B04DFC1CABC2C273DA6E0B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

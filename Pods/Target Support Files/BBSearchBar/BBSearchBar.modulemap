@@ -1,0 +1,6 @@
+framework module BBSearchBar {
+  umbrella header "BBSearchBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
